@@ -55,4 +55,29 @@ DormGuard is a portable, plug-and-play hardware device designed to solve energy 
 **FR-11: Setup:** "Plug-and-play" architecture. No complex installation or app configuration.
 
 ## 6. Initial Architecture (High-Level)
-Note: This is a
+Note: This is a sketch of the system components.
+
+**Input Layer (Sensors):**
+PIR Motion Sensor (Occupancy)
+Photoresistor/Light Sensor (Ambient Light)
+Current Sensor (e.g., CT Clamp or Relay feedback for Power Status)
+
+**Processing Layer (MCU):**
+Microcontroller (e.g., ESP32 or similar) to process logic: IF (Room Empty && Power On) THEN Alert.
+
+**Output Layer (Feedback):**
+OLED/LCD Screen (Data visualization)
+RGB LED Ring (Visual Status: Green=Good, Red=Waste)
+Piezo Buzzer (Audio Alert)
+
+**Power:**
+Mains powered (pass-through) or Rechargeable Battery (Portable).
+
+## 7. Success Metrics (KPIs)
+To validate the product, we will measure the following:
+
+**Onboarding Speed:** Users can set up the device in < 1 minute without reading instructions.
+**Usability:** 90% of test users can correctly identify alert signals and perform corrective actions.
+**Behavior Change:** Frequency of daily wasted-energy alerts shows a downward trend over time.
+**Reliability:** Device operates continuously for 7 days without failure in a live dorm setting.
+**User Satisfaction:** 80% of users report that the data display enhances their awareness of energy conservation.
