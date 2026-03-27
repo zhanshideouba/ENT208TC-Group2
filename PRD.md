@@ -7,9 +7,9 @@
 ---
 
 ## 2. Problem Statement
-* **Context:** Undergraduate students in 4–6 person dorms frequently waste energy due to oversight (e.g., leaving lights on, chargers plugged in).
-* **Current Workarounds:** Sticky notes and verbal reminders (inconsistent and lack data).
-* **Consequences:** Inflated bills, roommate friction, and poor sustainability habits.
+ **Context:** Undergraduate students in 4–6 person dorms frequently waste energy due to oversight (e.g., leaving lights on, chargers plugged in).
+ **Current Workarounds:** Sticky notes and verbal reminders (inconsistent and lack data).
+ **Consequences:** Inflated bills, roommate friction, and poor sustainability habits.
 
 ---
 
@@ -29,26 +29,26 @@
 ## 4. Functional Requirements & Feature List
 
 ### 4.1 Core Monitoring (The "Brain")
-* **FR-01: Presence Detection** — PIR sensor to monitor human activity.
-* **FR-02: Light Sensing** — Measure ambient light to detect if bulbs are active during daylight.
-* **FR-03: Power Tracking** — Real-time current draw detection of the connected outlet.
+ **FR-01: Presence Detection** — PIR sensor to monitor human activity.
+ **FR-02: Light Sensing** — Measure ambient light to detect if bulbs are active during daylight.
+ **FR-03: Power Tracking** — Real-time current draw detection of the connected outlet.
 
 ### 4.2 Alert System (The "Feedback")
-* **FR-04: Core Logic** — Trigger Alert `IF [No Motion] AND ([Light On] OR [Power Draw > Threshold])`.
-* **FR-05: Audio-Visual Action** — LED indicator + Buzzer chime + Screen notification.
-* **FR-06: Gentle Escalation** — Alerts must be distinct but non-intrusive (Gradual volume/brightness).
+ **FR-04: Core Logic** — Trigger Alert `IF [No Motion] AND ([Light On] OR [Power Draw > Threshold])`.
+ **FR-05: Audio-Visual Action** — LED indicator + Buzzer chime + Screen notification.
+ **FR-06: Gentle Escalation** — Alerts must be distinct but non-intrusive (Gradual volume/brightness).
 
 ### 4.3 Data & Hardware
-* **FR-07: Real-time Dashboard** — Display current saving status on an OLED screen.
-* **FR-08: Historical Logs** — Daily count of "Wasted Energy Incidents" and weekly trends.
-* **FR-09: Plug-and-Play** — Portable form factor; no complex software setup required.
+ **FR-07: Real-time Dashboard** — Display current saving status on an OLED screen.
+ **FR-08: Historical Logs** — Daily count of "Wasted Energy Incidents" and weekly trends.
+ **FR-09: Plug-and-Play** — Portable form factor; no complex software setup required.
 
 ---
 
 ## 5. Initial Architecture
 
 ###  Input Layer (Sensors)
-* **PIR Motion Sensor** (Occupancy# DormGuard: Product Requirements Document (PRD)
+ **PIR Motion Sensor** (Occupancy# DormGuard: Product Requirements Document (PRD)
 
 > **Status:** Draft / Mission 2 Submission  
 > **Core Concept:** A plug-and-play energy monitoring & alert system for shared dormitories.
@@ -61,9 +61,9 @@
 ---
 
 ## 2. Problem Statement
-* **Context:** Undergraduate students in 4–6 person dorms frequently waste energy due to oversight (e.g., leaving lights on, chargers plugged in).
-* **Current Workarounds:** Sticky notes and verbal reminders (inconsistent and lack data).
-* **Consequences:** Inflated bills, roommate friction, and poor sustainability habits.
+ **Context:** Undergraduate students in 4–6 person dorms frequently waste energy due to oversight (e.g., leaving lights on, chargers plugged in).
+ **Current Workarounds:** Sticky notes and verbal reminders (inconsistent and lack data).
+ **Consequences:** Inflated bills, roommate friction, and poor sustainability habits.
 
 ---
 
@@ -83,23 +83,23 @@
 ## 4. Functional Requirements & Feature List
 
 ### 4.1 Core Monitoring (The "Brain")
-* **FR-01: Presence Detection** — PIR sensor to monitor human activity.
-* **FR-02: Light Sensing** — Measure ambient light to detect if bulbs are active during daylight.
-* **FR-03: Power Tracking** — Real-time current draw detection of the connected outlet.
+ **FR-01: Presence Detection** — PIR sensor to monitor human activity.
+ **FR-02: Light Sensing** — Measure ambient light to detect if bulbs are active during daylight.
+ **FR-03: Power Tracking** — Real-time current draw detection of the connected outlet.
 
 ### 4.2 Alert System (The "Feedback")
-* **FR-04: Core Logic** — Trigger Alert `IF [No Motion] AND ([Light On] OR [Power Draw > Threshold])`.
-* **FR-05: Audio-Visual Action** — LED indicator + Buzzer chime + Screen notification.
-* **FR-06: Gentle Escalation** — Alerts must be distinct but non-intrusive (Gradual volume/brightness).
+ **FR-04: Core Logic** — Trigger Alert `IF [No Motion] AND ([Light On] OR [Power Draw > Threshold])`.
+ **FR-05: Audio-Visual Action** — LED indicator + Buzzer chime + Screen notification.
+ **FR-06: Gentle Escalation** — Alerts must be distinct but non-intrusive (Gradual volume/brightness).
 
 ### 4.3 Data & Hardware
-* **FR-07: Real-time Dashboard** — Display current saving status on an OLED screen.
-* **FR-08: Historical Logs** — Daily count of "Wasted Energy Incidents" and weekly trends.
-* **FR-09: Plug-and-Play** — Portable form factor; no complex software setup required.
+ **FR-07: Real-time Dashboard** — Display current saving status on an OLED screen.
+ **FR-08: Historical Logs** — Daily count of "Wasted Energy Incidents" and weekly trends.
+ **FR-09: Plug-and-Play** — Portable form factor; no complex software setup required.
 
 ---
 
 ## 5. Initial Architecture
 
-### 🔌 Input Layer (Sensors)
-* **PIR Motion Sensor** (Occupancy
+###  Input Layer (Sensors)
+ **PIR Motion Sensor** (Occupancy
