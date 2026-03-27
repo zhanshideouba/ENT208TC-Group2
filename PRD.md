@@ -1,4 +1,4 @@
-# 🛡️ DormGuard: Product Requirements Document (PRD)
+# DormGuard: Product Requirements Document (PRD)
 
 > **Status:** Draft / Mission 2 Submission  
 > **Core Concept:** A plug-and-play energy monitoring & alert system for shared dormitories.
@@ -51,8 +51,8 @@
 
 ## 5. Initial Architecture
 
-### 🔌 Input Layer (Sensors)
-* **PIR Motion Sensor** (Occupancy# 🛡️ DormGuard: Product Requirements Document (PRD)
+###  Input Layer (Sensors)
+* **PIR Motion Sensor** (Occupancy# DormGuard: Product Requirements Document (PRD)
 
 > **Status:** Draft / Mission 2 Submission  
 > **Core Concept:** A plug-and-play energy monitoring & alert system for shared dormitories.
