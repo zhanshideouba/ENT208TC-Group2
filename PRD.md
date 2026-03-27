@@ -1,9 +1,5 @@
 # DormGuard: Product Requirements Document (PRD)
 
-> **Status:** Draft / Mission 2 Submission  
-> **Core Concept:** A plug-and-play energy monitoring & alert system for shared dormitories.
-
----
 
 ## 1. Executive Summary
 **DormGuard** is a portable, plug-and-play hardware device designed to solve energy wastage in shared university dormitories. By monitoring occupancy, ambient light, and power usage, it provides real-time audio-visual feedback to remind students to save energy, reducing electricity bills and roommate conflicts.
