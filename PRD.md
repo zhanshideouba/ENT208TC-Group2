@@ -1,4 +1,4 @@
-# DormGuard: Product Requirements Document (PRD)
+# Product Requirements Document (PRD)
 
 
 ## 1. Executive Summary
@@ -13,7 +13,7 @@
 
 ---
 
-## 3. User Stories (Mission Requirement: 5–7)
+## 3. User Stories
 
 | ID | As a... | I want to... | So that... |
 | :--- | :--- | :--- | :--- |
@@ -67,7 +67,7 @@
 
 ---
 
-## 3. User Stories (Mission Requirement: 5–7)
+## 3. User Stories
 
 | ID | As a... | I want to... | So that... |
 | :--- | :--- | :--- | :--- |
